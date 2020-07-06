@@ -7,6 +7,7 @@ import { MyaccountComponent } from './myaccount/myaccount.component';
 import { SignupComponent } from './signup/signup.component';
 import { MenComponent } from './men/men.component';
 import { WomenComponent } from './women/women.component';
+import { FormsModule } from '@angular/forms';
 
 
 
@@ -22,7 +23,8 @@ import { WomenComponent } from './women/women.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
